@@ -1,6 +1,3 @@
-#--------------------------
-# Illustrates basic iteration.
-#--------------------------
 
 # Simple for loop.
 print('-------------')
