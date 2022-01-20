@@ -1,5 +1,4 @@
 #---------------------------------
-# Shows some examples related to functions and error handling.
 # Important Rule 1: Any code that is repeated more than twice should be put in a function.
 # Important Rule 2: Error handling is an extremely important but under appreciated aspect of Python.
 #---------------------------------
