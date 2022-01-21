@@ -23,12 +23,20 @@ plt.plot(x,y,'r--')
 #changing the appreance of lines and points
 
 
-plt.plot(x,y,'r--', x,y**2)
+plt.plot(x,y,'r--', x,y**2, x, np.exp(2*y))
 #can have multiple lines in the same plot: express lines sequesntially 
+
+
+
+
 
 
 plt.axis([0, 1, -1, 5])
 #assignining the start and end of axis
+
+plt.xlim(-8,8)
+#assigning the star and end of x axis
+
 plt.xlabel('price')
 plt.ylabel('demand')
 
