@@ -1,0 +1,26 @@
+#how to use matplot library to draw plots
+#first install this library:
+#pip install matplotlib
+
+import numpy as np
+x=np.linspace(0,1,100)
+y=1+1.5*x
+
+import matplotlib.pyplot as plt
+
+plt.plot(x,y)
+plt.plot(x,y,'r--')
+#changing the appreance of lines and points
+
+
+plt.plot(x,y,'r--', x,y**2)
+#can have multiple lines in the same plot: express lines sequesntially 
+
+
+plt.axis([0, 1, -1, 5])
+#assignining the start and end of axis
+plt.xlabel('price')
+plt.ylabel('demand')
+
+#you do not need .show in colab or ... but you need it in idle
+plt.show()
