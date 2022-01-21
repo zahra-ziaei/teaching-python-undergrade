@@ -1,0 +1,13 @@
+#generating ranodm distributions
+
+import numpy as np
+
+#1
+x=np.random.multinomial(10,[0.5,0.3,0.2])
+x=np.random.multinomial(N,p,r)
+
+
+#2
+state_space=['a','b','c']
+theta=[0.5,0.3,0.2]
+x=np.random.choice(state_space,size=100,p=theta)
