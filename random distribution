@@ -1,10 +1,20 @@
+if __name__ == '__main__':
+    x = int(input())
+
 #generating ranodm distributions
 
 import numpy as np
 
 #1
+np.random.random((20,1))
+#it generated an array of 20 by 1: 20 rows 1 columns from random numbers
+
+#2
 x=np.random.multinomial(10,[0.5,0.3,0.2])
 x=np.random.multinomial(N,p,n)
+#multinomila is only for dices: so we have 6 events, N=1- is the Number of throwing the dice, and p is the prob of each face: now the rest are zero: 
+#the output shows the number of each dices
+np.random.multinomial(100, [1/7.]*5 + [2/7.])
 
 
 #2
